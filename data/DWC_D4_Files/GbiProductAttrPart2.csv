@@ -1,0 +1,9 @@
+ProductId;ProdCat;CatDescr;UOM;Division
+BOTL1000;ACC;Accessoire;ST;AS
+CAGE1000;ACC;Accessoire;ST;AS
+CITY1000;TRE;Trend Bike;ST;BI
+PRTR3000;TOU;Touring Bike;ST;BI
+PUMP1000;ACC;Accessoire;ST;AS
+RHMT1000;ACC;Accessoire;ST;AS
+RKIT1000;ACC;Accessoire;ST;AS
+SHRT1000;ACC;Accessoire;ST;AS

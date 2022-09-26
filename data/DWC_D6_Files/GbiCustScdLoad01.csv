@@ -1,0 +1,17 @@
+BusinessKey;Description;Currency;Salesorg;Country;ValidFrom
+1000;Rocky Mountain Bikes;USD;UW00;US;1900-01-01
+2000;Big Apple Bikes;USD;UE00;US;1900-01-01
+3000;Philly Bikes;USD;UE00;US;1900-01-01
+4000;Peachtree Bikes;USD;UE00;US;1900-01-01
+5000;Beantown Bikes;USD;UE00;US;1900-01-01
+6000;Windy City Bikes;USD;UE00;US;1900-01-01
+7000;Furniture City Bikes;USD;UE00;US;1900-01-01
+8000;Motown Bikes;USD;UE00;US;1900-01-01
+9000;SoCal Bikes;USD;UW00;US;1900-01-01
+11000;DC Bikes;USD;UE00;US;1900-01-01
+12000;Northwest Bikes ;USD;UW00;US;1900-01-01
+13000;Airport Bikes;EUR;DS00;DE;1900-01-01
+14000;Alster Cycling;EUR;DN00;DE;1900-01-01
+15000;Bavaria Bikes;EUR;DS00;DE;1900-01-01
+16000;Capital Bikes;EUR;DN00;DE;1900-01-01
+17000;Cruiser Bikes;EUR;DN00;DE;1900-01-01
