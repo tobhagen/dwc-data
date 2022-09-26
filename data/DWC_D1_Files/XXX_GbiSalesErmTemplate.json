@@ -1,8 +1,8 @@
 {
   "definitions": {
-    "SXX_GbiCustomerAttr": {
+    "XXX_GbiCustomerAttr": {
       "kind": "entity",
-      "@EndUserText.label": "SXX_GbiCustomerAttr",
+      "@EndUserText.label": "XXX_GbiCustomerAttr",
       "@ObjectModel.modelingPattern": {
         "#": "DATA_STRUCTURE"
       },
@@ -34,9 +34,9 @@
           "type": "cds.String",
           "length": 5
         },
-        "_SXX_GbiOrders": {
+        "_XXX_GbiOrders": {
           "type": "cds.Association",
-          "@EndUserText.label": "_SXX_GbiOrders",
+          "@EndUserText.label": "_XXX_GbiOrders",
           "on": [
             {
               "ref": [
@@ -46,18 +46,18 @@
             "=",
             {
               "ref": [
-                "_SXX_GbiOrders",
+                "_XXX_GbiOrders",
                 "CustomerId"
               ]
             }
           ],
-          "target": "SXX_GbiOrders"
+          "target": "XXX_GbiOrders"
         }
       }
     },
-    "SXX_GbiCustomerText": {
+    "XXX_GbiCustomerText": {
       "kind": "entity",
-      "@EndUserText.label": "SXX_GbiCustomerText",
+      "@EndUserText.label": "XXX_GbiCustomerText",
       "@ObjectModel.modelingPattern": {
         "#": "DATA_STRUCTURE"
       },
@@ -77,9 +77,9 @@
           "type": "cds.String",
           "length": 40
         },
-        "_SXX_GbiCustomerAttr": {
+        "_XXX_GbiCustomerAttr": {
           "type": "cds.Association",
-          "@EndUserText.label": "_SXX_GbiCustomerAttr",
+          "@EndUserText.label": "_XXX_GbiCustomerAttr",
           "on": [
             {
               "ref": [
@@ -89,18 +89,18 @@
             "=",
             {
               "ref": [
-                "_SXX_GbiCustomerAttr",
+                "_XXX_GbiCustomerAttr",
                 "CustomerId"
               ]
             }
           ],
-          "target": "SXX_GbiCustomerAttr"
+          "target": "XXX_GbiCustomerAttr"
         }
       }
     },
-    "SXX_GbiOrderItems": {
+    "XXX_GbiOrderItems": {
       "kind": "entity",
-      "@EndUserText.label": "SXX_GbiOrderItems",
+      "@EndUserText.label": "XXX_GbiOrderItems",
       "@ObjectModel.modelingPattern": {
         "#": "DATA_STRUCTURE"
       },
@@ -166,9 +166,9 @@
         }
       }
     },
-    "SXX_GbiOrders": {
+    "XXX_GbiOrders": {
       "kind": "entity",
-      "@EndUserText.label": "SXX_GbiOrders",
+      "@EndUserText.label": "XXX_GbiOrders",
       "@ObjectModel.modelingPattern": {
         "#": "DATA_STRUCTURE"
       },
@@ -190,9 +190,9 @@
         "CustomerId": {
           "type": "cds.Integer"
         },
-        "_SXX_GbiOrderItems": {
+        "_XXX_GbiOrderItems": {
           "type": "cds.Association",
-          "@EndUserText.label": "_SXX_GbiOrderItems",
+          "@EndUserText.label": "_XXX_GbiOrderItems",
           "on": [
             {
               "ref": [
@@ -202,18 +202,18 @@
             "=",
             {
               "ref": [
-                "_SXX_GbiOrderItems",
+                "_XXX_GbiOrderItems",
                 "OrderNumber"
               ]
             }
           ],
-          "target": "SXX_GbiOrderItems"
+          "target": "XXX_GbiOrderItems"
         }
       }
     },
-    "SXX_GbiPlanData": {
+    "XXX_GbiPlanData": {
       "kind": "entity",
-      "@EndUserText.label": "SXX_GbiPlanData",
+      "@EndUserText.label": "XXX_GbiPlanData",
       "@ObjectModel.modelingPattern": {
         "#": "DATA_STRUCTURE"
       },
@@ -251,9 +251,9 @@
         }
       }
     },
-    "SXX_GbiProductAttr": {
+    "XXX_GbiProductAttr": {
       "kind": "entity",
-      "@EndUserText.label": "SXX_GbiProductAttr",
+      "@EndUserText.label": "XXX_GbiProductAttr",
       "@ObjectModel.modelingPattern": {
         "#": "DATA_STRUCTURE"
       },
@@ -286,9 +286,9 @@
           "type": "cds.String",
           "length": 2
         },
-        "_SXX_GbiProductText": {
+        "_XXX_GbiProductText": {
           "type": "cds.Association",
-          "@EndUserText.label": "_SXX_GbiProductText",
+          "@EndUserText.label": "_XXX_GbiProductText",
           "on": [
             {
               "ref": [
@@ -298,16 +298,16 @@
             "=",
             {
               "ref": [
-                "_SXX_GbiProductText",
+                "_XXX_GbiProductText",
                 "ProductId"
               ]
             }
           ],
-          "target": "SXX_GbiProductText"
+          "target": "XXX_GbiProductText"
         },
-        "_SXX_GbiOrderItems1": {
+        "_XXX_GbiOrderItems1": {
           "type": "cds.Association",
-          "@EndUserText.label": "_SXX_GbiOrderItems1",
+          "@EndUserText.label": "_XXX_GbiOrderItems1",
           "on": [
             {
               "ref": [
@@ -317,18 +317,18 @@
             "=",
             {
               "ref": [
-                "_SXX_GbiOrderItems1",
+                "_XXX_GbiOrderItems1",
                 "ProductId"
               ]
             }
           ],
-          "target": "SXX_GbiOrderItems"
+          "target": "XXX_GbiOrderItems"
         }
       }
     },
-    "SXX_GbiProductText": {
+    "XXX_GbiProductText": {
       "kind": "entity",
-      "@EndUserText.label": "SXX_GbiProductText",
+      "@EndUserText.label": "XXX_GbiProductText",
       "@ObjectModel.modelingPattern": {
         "#": "DATA_STRUCTURE"
       },
@@ -358,7 +358,7 @@
   "meta": {
     "creator": "ER Modeler",
     "kind": "sap.dwc.ermodel",
-    "label": "SXX_GbiSalesErmTemplate"
+    "label": "XXX_GbiSalesErmTemplate"
   },
   "$version": "1.1"
 }
